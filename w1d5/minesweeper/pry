@@ -1,0 +1,5 @@
+load 'player.rb'
+load 'game.rb'
+bmo = Player.new('byron')
+game = Game.new(bmo)
+game.play
